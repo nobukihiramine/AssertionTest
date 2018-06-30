@@ -16,12 +16,22 @@ Android Studioを用いた開発においては、組み込みのAssertステー
 Android Studio のリリースノートには、「代わりにBuildConfig.DEBUGを使用する必要がある」とあります。  
 
 動作確認の結果としては、  
-1. 深く調べてはいませんが、リリースノートの通りで、機能しません。  
-2. 3. 下記ブレークポイントの設定をしないと、例外が発生し、アプリが終了する（どのassertionで例外が発生したかわからない）。  
+(1.) は、深く調べてはいませんが、リリースノートの通りで、機能しません。  
+(2.)(3.) は、下記ブレークポイントの設定をしないと、例外が発生し、アプリが終了する（どのassertionで例外が発生したかわからない）。  
 下記ブレークポイントの設定をすることで、例外が発生した行で、処理が中断するので、どのassertionで例外が発生したかわかります。  
 
 <img src="_images/setting_breakpoints.png" alt="Screenshot"/>
+・Java exception Breakpoints > Any exception  
+  Suspend : 「Thread」ではなく「All」にチェック。  
+  Condition : 「!(this instanceof java.lang.ClassNotFoundException)」  
+  Class filters : 下画像  
+  
 <img src="_images/setting_classfilters.png" alt="Screenshot"/>
+・Class Filters :   
+  java.*  
+  junit.*  
+  （アプリ固有のクラスフィルタ）   
+  android.*  
 
 ## Screenshots : スクリーンショット
 <img src="_images/Screenshot_01.png" width="256" alt="Screenshot"/>
