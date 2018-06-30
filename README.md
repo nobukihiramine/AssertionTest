@@ -20,8 +20,8 @@ Android Studio のリリースノートには、「代わりにBuildConfig.DEBUG
 2. 3. 下記ブレークポイントの設定をしないと、例外が発生し、アプリが終了する（どのassertionで例外が発生したかわからない）。  
 下記ブレークポイントの設定をすることで、例外が発生した行で、処理が中断するので、どのassertionで例外が発生したかわかります。
 
-<img src="_images/setting_breakpoints.png" width="256" alt="Screenshot"/>
-<img src="_images/setting_classfilters.png" width="256" alt="Screenshot"/>
+<img src="_images/setting_breakpoints.png" alt="Screenshot"/>
+<img src="_images/setting_classfilters.png" alt="Screenshot"/>
 
 ## Screenshots : スクリーンショット
 <img src="_images/Screenshot_01.png" width="256" alt="Screenshot"/>
