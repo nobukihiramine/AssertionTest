@@ -5,10 +5,10 @@ public class MyAssert
 	public static void assertTrue( boolean condition )
 	{
 		// assert版
-		// assert( bValue );
+		// assert( condition );
 
 		// Assert.assertTrue版
-		// Assert.assertTrue( bValue );
+		// Assert.assertTrue( condition );
 
 		// BuildConfig.DEBUG && 版
 		if( BuildConfig.DEBUG && !condition )
