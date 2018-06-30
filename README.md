@@ -34,11 +34,6 @@ Android Studio のリリースノートには、「代わりにBuildConfig.DEBUG
   - android.*  
 
 <img src="_images/setting_classfilters.png" alt="Screenshot"/>
-・Class Filters :   
-  java.*  
-  junit.*  
-  （アプリ固有のクラスフィルタ）   
-  android.*  
 
 ## Screenshots : スクリーンショット
 <img src="_images/Screenshot_01.png" width="256" alt="Screenshot"/>
