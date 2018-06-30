@@ -24,7 +24,7 @@ Android Studio のリリースノートには、「代わりにBuildConfig.DEBUG
   - Java exception Breakpoints > Any exception
     - Suspend : 「Thread」ではなく「All」にチェック。
     - Condition : 「!(this instanceof java.lang.ClassNotFoundException)」  
-    - Class filters : 下記、クラスフィルター設定
+    - Class filters : 下記、クラスフィルター設定のように設定する
 <img src="_images/setting_breakpoints.png" alt="Screenshot"/>
 
 - クラスフィルター設定
