@@ -20,12 +20,19 @@ Android Studio のリリースノートには、「代わりにBuildConfig.DEBUG
 (2.)(3.) は、下記ブレークポイントの設定をしないと、例外が発生し、アプリが終了する（どのassertionで例外が発生したかわからない）。  
 下記ブレークポイントの設定をすることで、例外が発生した行で、処理が中断するので、どのassertionで例外が発生したかわかります。  
 
+- ブレークポイント設定
+ - Java exception Breakpoints > Any exception
+ - Suspend : 「Thread」ではなく「All」にチェック。
+ - Condition : 「!(this instanceof java.lang.ClassNotFoundException)」  
+ - Class filters : （クラスフィルター設定）
 <img src="_images/setting_breakpoints.png" alt="Screenshot"/>
-・Java exception Breakpoints > Any exception  
-  Suspend : 「Thread」ではなく「All」にチェック。  
-  Condition : 「!(this instanceof java.lang.ClassNotFoundException)」  
-  Class filters : 下画像  
-  
+
+- クラスフィルター設定
+ - java.*  
+ - junit.*  
+ - （アプリ固有のクラスフィルタ）   
+ - android.*  
+
 <img src="_images/setting_classfilters.png" alt="Screenshot"/>
 ・Class Filters :   
   java.*  
