@@ -15,10 +15,10 @@ Android Studioを用いた開発においては、組み込みのAssertステー
 3. BuildConfig.DEBUGを使用した方法  
 Android Studio のリリースノートには、「代わりにBuildConfig.DEBUGを使用する必要がある」とあります。  
 
-1. 2. 3. の動作確認の結果としては、  
-1. 深く調べてはいませんが、リリースノートの通りで、機能しません。
+動作確認の結果としては、  
+1. 深く調べてはいませんが、リリースノートの通りで、機能しません。  
 2. 3. 下記ブレークポイントの設定をしないと、例外が発生し、アプリが終了する（どのassertionで例外が発生したかわからない）。  
-下記ブレークポイントの設定をすることで、例外が発生した行で、処理が中断するので、どのassertionで例外が発生したかわかります。
+下記ブレークポイントの設定をすることで、例外が発生した行で、処理が中断するので、どのassertionで例外が発生したかわかります。  
 
 <img src="_images/setting_breakpoints.png" alt="Screenshot"/>
 <img src="_images/setting_classfilters.png" alt="Screenshot"/>
