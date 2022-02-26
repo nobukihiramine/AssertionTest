@@ -48,5 +48,7 @@ Nobuki HIRAMINE : http://www.hiramine.com
 ## License : ライセンス
 Copyright 2018 Nobuki HIRAMINE  
 The source code is licensed under the Apache License, Version 2.0.  
-(本アプリケーションのソースコードのライセンスは、「Apache License, Version 2.0」です。)
+See the [LICENSE](LICENSE) file for more details.  
+(本アプリケーションのソースコードのライセンスは、「Apache License, Version 2.0」です。  
+詳細は「[LICENSE](LICENSE)」ファイルを参照ください。)
 
